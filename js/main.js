@@ -11,8 +11,8 @@
   let TemperatureCelcius = Number( prompt('enter a température en celcius'));
   let TemperatureFahrenheit =   TemperatureCelcius * 9 / 5 + 32;
 
-  //alert('bonjour, ${TemperatureFahrenheit} ! ') ;
-  alert(TemperatureFahrenheit) ;
+  alert(` ${TemperatureFahrenheit} = ${TemperatureCelcius} `);
+
 
 
   //[°F] = [°C] x 9 / 5 + 32
